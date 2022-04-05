@@ -1,0 +1,346 @@
+.head{
+
+    background-image: url('./source/плашка.png');
+    color: white;
+}
+
+.head nav{
+    display: grid;
+    grid-template-areas: 'h n';
+    grid-template-columns: 1fr 1fr;
+}
+
+.headerLogo{
+    margin: 5px;
+    text-align: center;
+    grid-area: h;
+    font-size: 20px;
+}
+
+.headerList{
+    margin: 5px;
+    grid-area: n;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.headerList div{
+    margin-right: 4%;
+}
+
+.firstContainer{
+    padding-top: 80px;
+    background-image: url('./source/фон.png');
+    display: grid;
+    grid-template-areas: 'wrapperFromFirstElement wrapperFromSecondElement';
+    grid-template-columns: 50% 50%;
+}
+
+.wrapperFromFirstElement{
+    grid-area: wrapperFromFirstElement;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.wrapperFromSecondElement{
+    grid-area: wrapperFromSecondElement;
+}
+
+.imgMan{
+    width: 60%;
+}
+
+.firstContainer input{
+    color: #6d7682;
+    border: 2px solid #6d7682;
+    border-radius: 5px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+/* .shadow{} */
+
+h1{
+    color: #2c384a;
+}
+
+.firstContainerText{
+    color: #79818c;
+    margin-bottom: 35px;
+}
+
+.firstContainer img{
+    width: 16,26cm;
+    height: 56,39cm;
+}
+
+
+
+
+
+
+
+
+.secondContainer{
+    color: #3f495a;
+    text-align: center;
+}
+
+.wrapperConatiner{
+    margin-bottom: 80px;
+    padding-top: 70px;
+}
+
+.secondContainer input{
+    background: url("./source/иконка.png") no-repeat left;
+    width: 140px;
+    color: #6f707e;
+    border-radius: 4px;
+}
+
+.secondWrapperFromText{
+    width: 45%;
+    margin-left: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapperFromElementsImg{
+    display: flex;
+}
+
+.wrapperFromElementsImg div{
+    width: 60%;
+}
+
+
+
+.thirdContainer{
+    padding-bottom: 1px;
+    background-image: url('./source/картинка\ фона.png');
+    text-align: center;
+}
+
+.titleForSkill{
+    color: #cf7600;
+}
+
+.headTitle{
+    margin-bottom: 40px;
+    text-transform: uppercase; 
+    color: #263244;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.fourthContainer{
+    text-align: center;
+}
+
+.imgFromSite{
+    margin-top: 40px;
+}
+
+.wrapperFromInfoSite{
+    text-align: left;
+    display: flex;
+    margin:1% 7%;
+}
+
+.contentInfo{
+    margin-right: 50px;
+}
+
+.client div , .website div{
+    margin-bottom: 10px;
+}
+
+button{
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #63b5ae;
+}
+
+
+
+
+
+
+
+
+.fifthContainer{
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 7%;
+}
+
+.fifthHead{
+    color: #1c2534;
+    font-size: 35px;
+    text-align: center;   
+}
+
+select{
+    margin:10px 0 20px 0;
+    width: 100%;
+}
+
+.valueFromInputData{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: left;
+}
+
+.containerFromFrom{
+    border-top: 1px solid black;
+    width: 100%;
+}
+
+.inputProperty{
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+.sixthContainer{
+    padding-top: 50px;
+    background-image: url('./source/фоны.png');
+}
+
+.imgFromResults{
+    display: flex;
+    justify-content: center;
+}
+
+.elem{
+    margin: 20px 60px 50px 60px;
+}
+
+.imgFromResults{
+    text-align: center;
+}
+
+
+
+
+
+.seventhConainer{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.eighthContainer{
+    color: white;
+    background-image: url('./source/Фон-1.png');
+    padding-top: 50px;
+}
+
+.wrappContEighth{
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.wrappContEighth div{
+    text-align: center;
+}
+
+.lastElem{
+    display: flex;
+    justify-content: center;
+}
+
+.lastElem div{
+    margin: 0 25px 10px 25px;
+}
+
+.wrappEighth p, .wrappEighth{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.twoInputs input{
+    background-color: #d1d5db;
+    height: 30px;
+    margin: 0 10px 10px 10px;
+    width: 25%;
+}
+
+.message{
+    height: 50px;
+    background-color: #d1d5db;
+    width: 52.5%;
+}
+
+.withoutBackground{
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 40px;
+    border-color: white;
+    color: white;
+    background-image: none; 
+    background-color: transparent;
+}
+
+.avatarImg{
+    display: flex;
+    justify-content: center;
+}
+
+.avatarImg div{
+    margin: 50px 20px 50px 20px;
+}
+
+
+
+
+
+.back{
+    padding-top: 30px;
+    height: 40px;
+    text-align: center;
+    background-image: url('./source/Слой\ 1.png');
+    color: white;
+}
+
+.map{
+    margin-top: -30px;
+    max-width: 100%;
+}
