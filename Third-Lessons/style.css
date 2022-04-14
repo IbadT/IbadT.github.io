@@ -1,0 +1,427 @@
+.head{
+    height: 62px;
+    background-color: #344051;
+    width: 100%;
+}
+
+.headerLogo{
+    color: white;
+    margin-left: 390px;
+    line-height: 62px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
+
+.headerList{
+    padding-left: 426px;
+    display: flex;
+    font-size: 17px;
+    color: white;
+}
+
+.headerList div{
+    line-height: 62px;
+    margin-left: 42px;
+}
+
+
+
+
+
+
+.firstContainer{
+    text-align: center;
+    width: 100%;
+    height: calc(100% - 62px);
+    padding-top: 80px;
+    background: url("./source/Парень.png") 90% 100% no-repeat , url('./source/фон.png') no-repeat;
+    box-shadow: 0 -25px 50px -1px gray inset;
+}
+
+h1{
+    color: #2c384a;
+    font-weight: bold;
+    font-size: 79px;
+    white-space: nowrap;
+}
+
+.wrapperFromFirstElement{
+    margin: 340px 0px 0px 430px;
+    float: left;
+}
+
+.firstContainerText{
+    color: #79818c;
+    margin-top: 38px;
+    margin-bottom: 58px;
+    font-size: 20px;
+}
+
+.firstContainer input{
+    margin: 0px 14px;
+    border-radius: 5px;
+    padding: 10px 22px;
+    border: 2px solid #6d7682;
+    font-size: 19px;
+    color: #6d7682;
+}
+
+h3{
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.headTitle{
+    text-transform: uppercase; 
+    color: #263244;
+    text-align: center;
+    margin-bottom: 62px;
+}
+
+
+
+
+
+
+
+.secondContainer{
+    color: #3f495a;
+    text-align: center;
+    margin: 110px 0 100px 0;
+}
+
+.wrapperConatiner>img{
+    width: 208px;
+    margin-bottom: 26px;
+}
+
+.secondWrapperFromText{
+    font-size: 18px;
+    width: 45%;
+    margin-left: 25%;
+    margin-bottom: 40px;
+}
+
+.secondContainer input{
+    font-size: 17px;
+    padding-left: 15px;
+    width: 156px;
+    height: 32px;
+    border: 2px solid #6f707e;
+    background: url("./source/иконка.png") no-repeat left;
+    width: 140px;
+    color: #6f707e;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.thirdContainer{
+    background-image: url('./source/картинка\ фона.png');
+    padding-top: 106px;
+    padding-bottom: 92px;
+}
+
+.wrapperFromElementsImg{
+
+    display: flex;
+    justify-content: center;
+}
+
+.wrapperFromElementsImg div{
+    margin:  0 20px;
+    width: 215px;
+    text-align: center;
+    /* width: 60%; */
+}
+
+.titleForSkill{
+    color: #cf7600;
+    font-size: 19px;
+    padding: 40px 0 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fourthContainer{
+    text-align: center;
+    padding-top: 104px;
+}
+
+.imgFromSite{
+    margin-top: 40px;
+}
+
+.wrapperFromInfoSite{
+    width: 1133px;
+    text-align: left;
+    display: flex;
+    margin: 44px 400px 200px 388px;
+}
+
+.contentInfo{
+    margin-right: 50px;
+}
+
+.client div , .website div, .nameProject div{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+button{
+    font-size: 21px;
+    margin-top: 10px;
+    width: 205px;
+    height: 44px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #63b5ae;
+}
+
+
+
+
+
+
+
+
+.fifthContainer{
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 7%;
+}
+
+.fifthHead{
+    color: #1c2534;
+    font-size: 46px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 58px;   
+}
+
+select{
+    margin:10px 0 20px 0;
+    width: 100%;
+}
+
+.valueFromInputData{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: left;
+}
+
+.containerFromFrom{
+    border-top: 1px solid black;
+    width: 100%;
+    font-size: 21px;
+}
+
+.containerFromFrom form div{
+    margin-top: 28px;
+}
+
+.inputProperty{
+    margin-bottom: 25px;
+}
+
+.inputProperty b{
+    font-size: 29px;
+}
+
+select {
+    margin-top: 28px;
+    padding-left: 27px;
+    width: 890px;
+    height:60px;
+    font-size: 17px;
+    columns: #b3b3b3;
+    background-color: #eeeeee;
+}
+
+
+
+
+
+
+
+
+
+
+
+h2{
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 30px;
+    color: #323e4f;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.elem{
+    margin: 20px 78px 50px 78px;
+}
+
+.imgFromResults{
+    display: flex;
+    justify-content: center;
+}
+
+.sixthContainer{
+    height: 500px;
+    padding-top: 100px;
+    background: url('./source/фоны.png') 100% no-repeat;
+}
+
+.imgFromResults{
+    text-align: center;
+}
+
+.textElem{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+.seventhConainer{
+    margin: 105px 0 100px 0;
+    text-align: center;
+}
+
+.sevenText p{
+    margin-top: 36px;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.eighthContainer{
+    color: white;
+    background: url('./source/Фон-1.png') no-repeat ;
+    background-size: 100% 910px;
+    padding-top: 106px;
+}
+
+.wrappContEighth{
+    justify-content: center;
+}
+
+.wrappContEighth div{
+    text-align: center;
+}
+
+.lastElem{
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.lastElem div{
+    margin: 0 25px 10px 25px;
+}
+
+.wrappEighth p, .wrappEighth{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 17px;
+    margin-bottom: 48px;
+}
+
+.twoInputs input{
+    background-color: #d1d5db;
+    height: 40px;
+    margin: 0 15px 10px 15px;
+    width: 355px;
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+.message{
+    font-size: 17px;
+    width: 743px;
+    height: 96px;
+    background-color: #d1d5db;
+    padding: 10px 0 0 20px;
+}
+
+.withoutBackground{
+    font-size: 21px;
+    margin: 30px 0 168px 0;
+    border-radius: 5px;
+    height: 50px;
+    width: 130px;
+    border: 3px solid white;
+    color: white;
+    background-image: none; 
+    background-color: transparent;
+}
+
+/* .avatarImg{
+    display: flex;
+    justify-content: center;
+}
+
+.avatarImg div{
+    margin-right: 20px;
+    margin-top: 50px; */
+    /* margin: 50px 20px 50px 20px; */
+/* } */
+
+
+
+
+
+
+
+.map{
+    margin-top: -68px;
+    width: 100%;
+    height: 360px;
+}
+
+.back{
+    height: 98px;
+    background-color: #354051;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    line-height: 98px;
+}
+
