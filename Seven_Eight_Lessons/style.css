@@ -498,7 +498,7 @@ h2 {
 .eigthMain {
     color: white;
     background: url('./source/Фон-1.png') no-repeat;
-    background-size: 100% 910px;
+    /* background-size: 100%; */
 
     background-attachment: fixed;
     background-position: center;
@@ -578,6 +578,11 @@ h2 {
         width: 335px;
         font-size: 17px;
         padding-left: 20px;
+    }
+}
+@media(max-width: 992px){
+    .wrappText{
+        word-wrap: break-word;
     }
 }
 
