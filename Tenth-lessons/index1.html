@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <link rel="stylesheet" href="./bootstrap/bootstrap.css ">
+    <link rel="stylesheet" href="style.css">
+    <title>MyFirstProject</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="container-fluid headers">
+                <div class="container p-3">
+                    <div class="row">
+                        <div class="col-xxl-2 col-lg-3 col-md-4 text-center header-h">Андрей Браун</div> <!--col 3th params??? -->
+                        <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-7 offset-xxl-4 offset-xl-1 offset-lg-1 pt-1 d-none d-lg-flex first">
+                            <div class="text-center col-2 ">Обо мне</div>
+                            <div class="text-center col-2 ">Услуги</div>
+                            <div class="text-center col-2 ">Кейсы</div>
+                            <div class="text-center col-2 ">Прайс</div>
+                            <div class="text-center col-2 ">Отзывы</div>
+                            <div class="text-center col-2 ">Контакты</div>
+                        </div>
+                        <select class="form-select d-lg-none col-md-4 offset-3 sel" aria-label="Disabled select example">
+                            <option selected>Information</option>
+                            <option value="1">Обо мне</option>
+                            <option value="2">Услуги</option>
+                            <option value="3">Кейсы</option>
+                            <option value="1">Прайс</option>
+                            <option value="2">Отзывы</option>
+                            <option value="3">Контакты</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstMain">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-xl-6 col-lg-12 firstContainer mt-5">
+                                <h1>Привет<br />Я Андрей Браун</h1>
+                                <div class="firstContainerText">
+                                    Фулл стек веб-разработчик и Android-разработчик
+                                </div>
+                                <input type="button" value="Обо мне">
+                                <input type="button" value="Мои работы">
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <main>
+        <section class="secondMain">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2 col-lg-3 col-md-4 offset-md-4 offset-5 headTitle">
+                        <h3>обо мне</h3>    
+                    </div>
+                    <div>
+                        <img class="col-2 img" src="./source/фотка.png" alt="#">
+                    </div>  
+
+                    <div class="col-8 offset-2 secondWrapperFromText">
+                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque sed labore aut ab repudiandae,
+                            dolorum
+                            quae vero. Ex iure, repudiandae ducimus quis excepturi a illo, non consectetur asperiores
+                            distinctio
+                            rerum? 
+                        </div>
+                        <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium qui ut aspernatur cum.
+                            Quo
+                            deserunt quis ducimus reprehenderit et! Fugit officia minus quis vel ipsum mollitia sit voluptas
+                            impedit
+                            natus!
+                        </div>
+                    </div>
+                    <input class="col-2 offset-5 secondBtn" type="submit" value="Скачать резюме">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <main>
+        <section>
+            <div class="container-fluid thirdMain">
+                <div class="container">
+                    <div class="row">
+                            <div class="headTitle">
+                                <h3>что я умею</h3>
+                            </div>
+                            <div class="wrapperFromElementsImg">
+                                <div class="col-3 col-xxl-3 col-xl-3 col-lg-3">
+                                    <div>
+                                        <img src="./source/ноут.png" alt="#">
+                                    </div>
+                                    <div class="titleForSkill">
+                                        <b>Веб-дизайн</b>
+                                    </div>
+                                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, nesciunt.</div>
+                                </div>
+                                <div class="col-3 col-xxl-3 col-xl-3 col-lg-3">
+                                    <div>
+                                        <img src="./source/знак.png" alt="#">
+                                    </div>
+                                    <div class="titleForSkill">
+                                        <b>Разработка</b>
+                                    </div>
+                                    <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, voluptatum!</div>
+                                </div>
+                                <div class="col-3 col-xxl-3 col-xl-3 col-lg-3">
+                                    <div>
+                                        <img src="./source/ракета.png" alt="#">
+                                    </div>
+                                    <div class="titleForSkill">
+                                        <b>CEO-Оптимизация</b>
+                                    </div>
+                                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, deleniti.</div>
+                                </div>
+                                <div class="col-3 col-xxl-3 col-xl-3 col-lg-3">
+                                    <div>
+                                        <img src="./source/граммофон.png" alt="#">
+                                    </div>
+                                    <div class="titleForSkill">
+                                        <b>Маркетинг</b>
+                                    </div>
+                                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, consectetur.</div>
+                                </div>
+                            </div>
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <main>
+        <section class="fourthMain">
+            <div class="container">
+                <div class="row">
+                    <div class="headTitle">
+                        <h3>кейсы</h3>
+                    </div>
+                    <div class="col-8 offset-2 fourthTxt" style="font-size: 16.6px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque molestias
+                        accusamus sit corporis architecto
+                        pariatur cupiditate ipsam.
+                    </div>
+                    <div class="imgFromSite">
+                        <img class="col-12" src="./source/фоткаvfr.png">
+                    </div>
+    
+                    <div class="d-flex wrapperFromInfoSite">
+                        <div class="col-2 contentInfo">
+                            <div class="client">
+                                <div class="fromTegB"><b>CLIENT:</b></div>
+                                <div style="font-size: 16.6px;">Какая-то компания</div>
+                            </div>
+                            <div class="website">
+                                <div class="fromTegB"><b>WEBSITE</b></div>
+                                <div style="font-size: 16.6px;">http://www.somedomain.com</div>
+                            </div>
+                            <button class="btn addbtn">Перейти на сайт</button>
+                        </div>
+    
+                        <div class="offset-lg-2 offset-md-4 col-md-6 col-9 offset-1 nameProject">
+                            <div class="fromTegB"><b>Название проекта</b></div>
+                            <div style="font-size: 20px; color: #3f495a;">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Non illo provident commodi atque ex,
+                                voluptatibus quisquam facilis aut, ducimus deleniti libero eum officiis earum rerum dolor
+                                aliquid
+                                iure in cum?</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <main>
+        <section class="fifthMain">
+            <div class="container">
+                <div class="row fifthBorder offset-1 col-10">
+                    <div class="headTitle">
+                        <h3>Расчет стоимости</h3>
+                    </div>
+                    <div class="px-5 valueFromInputData">
+                    <div class="inputProperty" style='text-transform: uppercase;'>
+                        <b>тип сайта</b>
+                        <div>
+                            <form class="fifthFroms" action="">
+                                <select name="list1" id="list">
+                                    <option selected>Выберите пункт...</option>
+                                    <!-- <option>Выберите пункт...</option> -->
+                                    <option value="1">Сайт-визитка</option>
+                                    <option value="2">Интернет-магазин</option>
+                                    <option value="3">Промо-сайт</option>
+                                    <option value="4">Сайт-витрина</option>
+                                    <option value="5">Корпоративный имиджевый сайт</option>
+                                    <option value="6">Корпоративный информационный сайт</option>
+                                    <option value="7">Тематический сайт</option>
+                                    <option value="8">Новостной сайт</option>
+                                </select>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="inputProperty" style='text-transform: uppercase;'>
+                        <b>дизайн</b>
+                        <div>
+                            <form class="fifthFroms" action="">
+                                <select name="list1" id="list1">
+                                    <option selected>Выберите пункт...</option>
+                                    <!-- <option>Выберите пункт...</option> -->
+                                    <option value="1">Минимализм</option>
+                                    <option value="2">Классический стиль</option>
+                                    <option value="3">Корпоративный стиль</option>
+                                    <option value="4">Стиль Ар-Деко</option>
+                                    <option value="5">Ретро</option>
+                                    <option value="6">HI TECH</option>
+                                    <option value="7">Рисованный стиль</option>
+                                    <option value="8">Информационный</option>
+                                </select>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="inputProperty" style='text-transform: uppercase;'>
+                        <b>адаптивность</b>
+                        <div>
+                            <form class="fifthFroms" action="">
+                                <select name="list1" id="list2">
+                                    <option selected>Выберите пункт...</option>
+                                    <!-- <option>Выберите пункт...</option> -->
+                                    <option value="1">Адаптивный</option>
+                                    <option value="2">Динамический</option>
+                                </select>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="containerFromFrom">
+                        <form action="">
+                            <div>Сроки</div>
+                            <div>Стоимость</div>
+                        </form>
+                        <div class="aboutResult">
+                            <div>0</div>
+                            <div>0</div>
+                        </div>
+                    </div>
+                    <button id="btnId" class="offset-lg-5 offset-md-4 btn" style="background-color: #00b6af; color: white;">Оставить заявку</button>
+                    <button id="btnId2" class="offset-lg-5 offset-md-4 btn" style="display: none; background-color: #00b6af; color: white;">
+                        <a style="text-decoration: none; color: white;" href="#myContacts">Перейти к заказу</a>
+                    </button>
+                </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <main>
+        <section>
+            <div class="container-fluid sixthMain">
+                <div class="container">
+                    <div class="row">
+                        <div class="headTitle">
+                            <h3>немного статистики</h3>
+                        </div>
+                        <div class="imgFromResults">
+                            <div class="col-3 elem">
+                                <div>
+                                    <img src="./source/смайл.png">
+                                </div>
+                                <div>
+                                    <h2>
+                                        120
+                                    </h2>
+                                    <div class="textElem">
+                                        Счастливых клиентов
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 elem">
+                                <div>
+                                    <img src="./source/скобки.png">
+                                </div>
+                                <div>
+                                    <h2>
+                                        4,600
+                                    </h2>
+                                    <div class="textElem">
+                                        Часов работы
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 elem">
+                                <img src="./source/галочка.png">
+                                <div>
+                                    <h2>
+                                        340
+                                    </h2>
+                                    <div class="textElem">
+                                        Проектов завершено
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 elem">
+                                <img src="./source/кубок.png">
+                                <div>
+                                    <h2>
+                                        23
+                                    </h2>
+                                    <div class="textElem">
+                                        Наград получено
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <main>
+        <section class="seventhMain">
+            <div class="container">
+                <div class="row">
+                    <div class="headTitle">
+                        <h3>отзывы</h3>
+                    </div>
+                    <div class="sevenText">
+                        <img class="col-2 offset-5" src="./source/фотка1.png">
+                        <p class="col-8 offset-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, facilis quis totam laborum ea nulla
+                            perspiciatis illo? Inventore <br />dolor nam, aperiam a aut cum possimus omnis quibusdam ipsa nobis.
+                        </p>
+                        <br />
+                        <p>Михаил, Гендиректор ПАО "Газпром"</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <main id="myContacts">
+        <section>
+            <div class="container-fluid eigthMain">
+                <div class="container">
+                    <div class="row">
+                        <div class="headTitle">
+                            <h3 class="offset-4 col-4 color:white;" style="color: white;">мои контакты</h3>
+                        </div>
+                        <p class="col-6 offset-3 eigthHeadText">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nam molestias facere iste pariatur!
+                        </p>
+                        <div class="px-5  lastElem">
+                            <div class="col-2">
+                                <div>
+                                    <img style="width: 28px;" src="./source/гео.png">
+                                </div>
+                                <div>
+                                    Санкт-Петербург <br />Невский проспект 11
+                                </div>
+                            </div>
+                            <div class="offset-1 col-2 col-md-2 wrappText">
+                                <div>
+                                    <img style="width: 28px;" src="./source/конверт.png">
+                                </div>
+                                <div>
+                                    info@companyname.com
+                                </div>
+                            </div>
+                            <div class="offset-1 col-2">
+                                <div>
+                                    <img style="width: 28px;" src="./source/труба.png">
+                                </div>
+                                <div>
+                                    +7 999 999 99-99
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <p class="eigthText" style="text-transform: uppercase; font-size: 20.8px; margin: 38px 0 46px 0;">
+                                <b class="col-4 offset-4 sendMeMessage">
+                                    оставьте мне сообщение
+                                </b>
+                            </p>
+
+
+
+                            <form class="" action="">
+
+                                <div class="twoInputs">
+                                    <input class="col-md-3" type="text" placeholder="Имя">
+                                    <input class="col-md-3" type="mail" placeholder="Email">
+                                </div>
+                                <div class="eighthMess">
+                                    <textarea class="message" placeholder="Сообщение"></textarea>
+                                </div>
+                            </form>
+                            <input class="col-2 offset-5 withoutBackground" type="submit" value="Отправить">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <main>
+        <section>
+            <div class="container-fluid map">
+                <img class="map" src="./source/Карта копия.png">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="back">Copyright © 2021 Андрей Браун. Design by Web</div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    <script src="./index.js"></script>
+</body>
+</html>
