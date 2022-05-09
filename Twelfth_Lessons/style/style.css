@@ -15,17 +15,23 @@ a{
     transform: scale(1.1);
     transition: all 0.3s;
 }
-.first div {
-    animation: movement 2s forwards;
-    opacity: 0;
-    transition: all 0.5s;
-}
-.first div:hover {
+.activeForNav{
     font-weight: bold;
     color: #cf7600;
     transform: scale(1.1);
     transition: all 0.3s;
 }
+.first div {
+    animation: movement 2s forwards;
+    opacity: 0;
+    transition: all 0.5s;
+}
+/* .first div:hover {
+    font-weight: bold;
+    color: #cf7600;
+    transform: scale(1.1);
+    transition: all 0.3s;
+} */
 
 @keyframes movement {
     from {
