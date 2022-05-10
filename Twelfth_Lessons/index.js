@@ -249,69 +249,23 @@ $(document).ready(function(){
             $('h2').spincrement({
                 duration: 4000
             });
-        }//else{
-            // console.log('Меньше')
-        // }
+        }
     })
 
 
 
-
-
-
-    let aboutMe = $('#aboutMe').offset().top;
-    let services = $('#services').offset().top;
-    let cases = $('#cases').offset().top;
-    let price = $('#price').offset().top;
-    let reviews = $('#reviews').offset().top;
-    let myContacts = $('#myContacts').offset().top;
-    let navigationElement = $('.headerA');
-
-    // $(window).scroll(function(){
-    //     if($(this).scrollTop() > aboutMe && $(this).scrollTop() < services){
-    //         $(navigationElement).each((i,el)=>{
-    //             el[0].target.classList.add('activeForNav');
-    //             // console.log(el[0])
-    //         })
-    //     }else{
-    //         // navigationElement[0].removeClass('activeForNav');
-    //     }
-    // })
- 
-    // console.log(navigationElement.addClass('active'));
-    // console.log(services);
-    // console.log(cases);
-    // console.log(price);
-    // console.log(reviews);
-    // console.log(myContacts);
-
-
-
-
-
-    let res = $('.headerA');
-
-    $(window).scroll(function(){
+    $(window).scroll(function(){ //scroll and navMenu
         let current_position = $(this).scrollTop();
 
-        res.each(function(){
-            let top = $(this).offset().top - $('header').outerHeight(); //получаем текущую позицию скролла - высота поля nav
-            
-
-            let bottom = top + $(this).outerHeight(); //получаем нижнюю точку элемента
-
-            // console.log(bottom)
-
-            if(current_position >= top && current_position <= bottom){
-                $(this).addClass('activeForNav');
-
-            }else{
-                 $(this).removeClass('activeForNav')
+        $('.mainFromNav').each((i,el)=>{
+            if($(el).offset().top - $('.first').outerHeight() <= current_position){
+                 $('.first a').each((e,el)=>{
+                     if($(el).hasClass('activeForNav')){
+                         $(el).removeClass('activeForNav');
+                     }
+                 })
+                 $('.first div:eq('+ i +')').find('a').addClass('activeForNav')
             }
-            // return false;
         })
-
-
     })
-    // console.log(res.outerHeight())
 })
